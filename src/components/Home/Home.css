@@ -1,0 +1,14 @@
+.Home{
+    background-image: url("/src/assets/zImages/tired.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(/src/assets/zImages/tired.jpg) no-repeat ;
+    height: 100vh;
+    background-size: cover;
+    position: -webkit-sticky;
+    color: white;
+}
+.info{
+    margin-top: 15rem;
+    /* font-size: larger; */
+    font-weight: 600;
+    margin-left: 3%;
+}
