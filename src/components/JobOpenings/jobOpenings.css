@@ -1,0 +1,17 @@
+
+.underline {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.underline:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 50%;
+    height: 2px; 
+    background-color: orange; 
+    transform: translateX(-50%);
+}

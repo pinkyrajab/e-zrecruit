@@ -1,0 +1,94 @@
+.card-subtitle{
+    padding-bottom: 0.8rem;
+
+    
+}
+.card-title{
+    color: rgb(110, 10, 10)!important;
+    padding-bottom: 1rem;
+}
+.card {
+    transition: transform 0.5s;
+  }
+/* .card:hover {
+    transform: scale(1.1);
+  } */
+  .accordion {
+    background-color: transparent!important; /* Set the background to transparent */
+  }
+  
+  .accordion-button {
+    background-color: rgba(255, 255, 255, 0.5)!important; /* Set the button background to semi-transparent white */
+  }
+  
+  .accordion-body {
+    background-color: rgba(255, 255, 255, 0.7)!important; /* Set the body background to slightly more opaque white */
+    color: #000!important; /* Set the text color to black */
+  }
+  .card-link{
+    color: rgb(132, 19, 19);
+    text-decoration: none;
+  }
+  .jobcard:hover {
+    transform: translateY(-5px) scale(1.005);
+    background: var(--orange);
+    background-size: 200% 200%; /* Increase the background size to cover the entire card */
+    transition: transform 0.3s ease-out, background 0.8s ease-in;
+    
+  }
+  
+  /* Define your orange variable */
+  :root {
+    --orange: orange; /* You can replace 'orange' with the desired shade of orange */
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.navbar {
+    width: 100%;
+    margin-bottom: 0 !important;
+    padding-top: 20px !important;
+    animation: fadeInUp 2.5s ease-in;
+    /* animation-delay: 0.2s; */
+    /* z-index: 1000;  */
+}
+.dropdown-menu{
+  background-color: rgba(53, 53, 53, 0.829)!important;
+}
+
+.dropdown-item{
+  background-color: none!important;
+  color: white!important;
+}
+.dropdown-menu .dropdown-item:hover{
+  background-color: rgba(53, 53, 53, 0.829)!important;
+  color: #E97000!important;
+  padding:"0"!important;
+}
+.navbar-brand{
+    /* color: #E97000 !important; */
+    color: orange !important;
+    padding-Left:120px !important;
+}
+.nav-link{
+    color: white !important;
+    font-size: small!important;
+}
+.nav-link:hover{
+    color: #E97000 !important;
+}
+.myBtn{
+  background-color: white!important;
+  width: 10rem!important;
+  color:#E97000 !important;
+  border-radius: 30px!important;
+  font-weight: 700!important;
+}

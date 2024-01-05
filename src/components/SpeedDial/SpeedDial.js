@@ -22,7 +22,7 @@ const actions = [
 
 const styles = {
     transparentBackground: {
-      backgroundColor: 'transparent !important',
+      backgroundColor: 'none !important',
     },
   };
   
