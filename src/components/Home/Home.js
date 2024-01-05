@@ -11,9 +11,9 @@ export function HomePage(){
         <>
             <div className='Home' style={{height: "100vh"}}>
                 <Navbar/>
-                <div className='container-fluid' style={{height:"90vh"}}>
+                <div className='container-fluid' style={{height:"90vh",width:"100%"}}>
                     <div className='row'>
-                         <center><p className='col-md-12' style={{marginTop:"270px"}}>
+                         <center><p className='col-md-12' style={{marginTop:"250px"}}>
                             <span className="tops" style={{fontSize:"30px"}}>Fed up with job search hassles?</span>
                             <br/><br></br>
                             <span className="bottoms" style={{fontSize:"20px"}}>

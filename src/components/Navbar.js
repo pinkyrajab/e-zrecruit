@@ -13,13 +13,9 @@ export function Navbar(){
                     <a class="navbar-brand">Z Recruiters</a>
                     <div class="d-flex" role="search">
                         <ul class="nav" style={{marginRight:"50px"}}>
-                           
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#jobOpenings">Job Search</a>
                             </li>
-                            {/* <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" onClick={handleEmployer} href=''>Employer</a>
-                            </li> */}
                             <li class="nav-item  dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Employer
@@ -36,7 +32,7 @@ export function Navbar(){
                                 <a class="nav-link" href='#AboutUs'>About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled">Login</a>
+                                <a class="nav-link " href='/Register'>Login</a>
                             </li>
                         </ul>
                     </div>

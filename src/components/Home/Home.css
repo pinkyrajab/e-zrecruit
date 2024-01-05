@@ -21,7 +21,7 @@
   background-attachment: fixed;
   /* -webkit-sticky; */
   color: rgba(249, 239, 227, 0.985)!important;
-  animation: fadeInUp 1.5s ease-in;
+  animation: fadeInUp 0.8s ease-in;
 }
 
 @keyframes fadeInUp {
