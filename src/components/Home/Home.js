@@ -120,7 +120,7 @@ export function HomePage(){
                                             <li><a>Jobs</a></li>
                                             <li><a>Employer Login</a></li>
                                             <li><a>Job Seeker Login</a></li>
-                                            <li><a>Admin</a></li>
+                                            <li><a>Admin Login</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -179,7 +179,7 @@ export function HomePage(){
                         
                     </div>
                 </div>
-                <div style={{marginTop:"90px",backgroundColor:"orange"}}>
+                <div style={{marginTop:"90px",backgroundColor:"white"}}>
                 <svg
                     className="waves"
                     xmlns="http://www.w3.org/2000/svg"
@@ -195,10 +195,10 @@ export function HomePage(){
                     />
                     </defs>
                     <g className="parallax">
-                    <use xlinkHref="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
-                    <use xlinkHref="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-                    <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-                    <use xlinkHref="#gentle-wave" x="48" y="7" fill="#fff" />
+                    <use xlinkHref="#gentle-wave" x="48" y="0" fill="rgba(244,176,0,0.15)" />
+                    <use xlinkHref="#gentle-wave" x="48" y="3" fill="rgba(244,176,0,0.39)" />
+                    <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(244,176,0,0.5)" />
+                    <use xlinkHref="#gentle-wave" x="48" y="7" fill="rgba(244,176,0,0.9)" />
                     </g>
                 </svg>
                 </div>

@@ -79,8 +79,12 @@
 }
 .navbar-brand{
     /* color: #E97000 !important; */
+    font-family: 'MonteCarlo', cursive!important;
+    font-size: 27px!important;
+    font-weight: 500!important;
     color: orange !important;
     padding-Left:120px !important;
+    letter-spacing: 2px!important;
 }
 .nav-link{
     color: white !important;
@@ -88,6 +92,8 @@
 }
 .nav-link:hover{
     color: #E97000 !important;
+    /* font-size: 20px!important;
+    letter-spacing: 2px!important; */
 }
 .myBtn{
   background-color: white!important;
