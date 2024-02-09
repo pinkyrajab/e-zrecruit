@@ -1,5 +1,7 @@
+import { Navigate, useNavigate } from 'react-router'
 import './ComponentStyles.css'
 import { useMemo, useState } from 'react'
+
 export function Card(props){
     
     const myarr=[
@@ -28,12 +30,16 @@ export function Card(props){
             experienceLevel: 'Junior',
           },
     ]
+    const navigate = useNavigate()
+    const handleViewClick=(e)=>{
+        navigate('/jobOpenings')
+    }
     return(
         <>
         <div className="container" style={{marginBottom:"40px"}}>
             <div className="row">
             <div className='container'>
-            <button className='btn btn-dark myBtn' style={{float:"right",marginBottom:"15px"}}>View All Jobs...</button>
+            <button className='btn fillOut myBtn btn-dark btn-back ' style={{float:"right",marginBottom:"15px",color:"#E97000"}} onClick={handleViewClick}>View All Jobs...</button>
             </div>
                 {
                 myarr.map((job, index)=>(

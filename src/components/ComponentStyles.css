@@ -39,7 +39,7 @@
   
   /* Define your orange variable */
   :root {
-    --orange: orange; /* You can replace 'orange' with the desired shade of orange */
+    --orange: orange; 
   }
   
   @keyframes fadeInUp {
@@ -98,7 +98,44 @@
 .myBtn{
   background-color: white!important;
   width: 10rem!important;
-  color:#E97000 !important;
+  color:#E97000 ;
   border-radius: 30px!important;
   font-weight: 700!important;
+}
+.btn-back {
+  color: #E97000;
+  border-color: #E97000;
+  background: linear-gradient(90deg, #E97000 0 50%, transparent 50% 100%);
+  background-size: 200%;
+  background-position: 100%;
+}
+
+@keyframes fillOutFrames {
+  0% {
+      color: #E97000;
+      background-position: 100%;
+     
+  }
+  100% {
+    color: rgb(53, 52, 52);
+    background-position: 0%;
+  }
+}
+
+.fillOut:hover {
+  animation-name: fillOutFrames;
+  animation-duration: 1.0s ;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
+/* .myBtn:hover{
+  background-color: rgb(219, 118, 82)!important;
+  border: white!important;
+  color:white!important;
+} */
+.nav-link-jobopenings{
+  color: black;
+  font-size: medium;
 }
