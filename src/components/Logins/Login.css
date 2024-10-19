@@ -1,6 +1,6 @@
 .Register{
     /* background: rgba(203, 103, 2, 0.874); */
-    background: linear-gradient(to right ,rgba(203, 103, 2, 0.725),rgba(203, 103, 2, 0.747));
+    background: linear-gradient(to right ,rgba(231, 127, 22, 0.725),rgba(203, 103, 2, 0.747));
 	display: flex;
 	justify-content: center;
 	/* align-items: center; */

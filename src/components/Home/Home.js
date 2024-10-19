@@ -12,18 +12,18 @@ export function HomePage(){
             <div className='Home' style={{height: "100vh"}}>
                 <Navbar/>
                 <div className='container-fluid' style={{height:"90vh",width:"100%"}}>
-                    <div className='row'>
-                         <center><p className='col-md-12' style={{marginTop:"250px"}}>
-                            <span className="tops" style={{fontSize:"30px"}}>Fed up with job search hassles?</span>
-                            <br/><br></br>
-                            <span className="bottoms" style={{fontSize:"20px"}}>
-                            Dont worry ! Streamline your job search and simplify <br></br> candidate discovery with <span style={{fontSize:"24px", color:"orange"}}>Z Recruiters  </span>
-                            for an effortless experience. 
+                    <div className='row d-flex justify-content-center align-items-center' style={{ minHeight: '100vh', textAlign: 'center' }}>
+                        <p className='col-md-12'>
+                            <span className="tops" style={{ fontSize: "30px" }}>Fed up with job search hassles?</span>
+                            <br /><br />
+                            <span className="bottoms" style={{ fontSize: "20px" }}>
+                                Don't worry! Streamline your job search and simplify <br /> candidate discovery with 
+                                <span style={{ fontSize: "24px", color: "orange" }}> Z Recruiters </span> for an effortless experience.
                             </span>
-
-                            
                         </p>
-                        <a href='#jobOpenings'><Btn title="Find Jobs"></Btn></a></center>
+                        <a href='#jobOpenings'>
+                            <Btn title="Find Jobs" />
+                        </a>
                     </div>
                 </div>
                 <div className='jobOpenings'  >
@@ -85,7 +85,7 @@ export function HomePage(){
                         </div>
                     </div>
                 </div> */}
-                <div className='Home2' ID="AboutUs">
+                <div className='Home2' ID="AboutUs" style={{paddingTop: "50px", paddingBottom: "50px"}}>
                     <div className='container' style={{ backdropColor:"wheat" ,paddingLeft:"80px", paddingTop:"20px"}}>
                         <div class="underline" style={{ marginBottom: "20px"}}>
                             <h5 style={{padding:"20px", color:"white"}}>About Us</h5>
@@ -101,7 +101,7 @@ export function HomePage(){
                 </div>
 
                 <div className='jobopenings' style={{color:"black"}}>
-                    <div className='container ' style={{height: "50vh",marginBottom:"0",paddingLeft:"80px"}}>
+                    <div className='container ' style={{marginBottom:"20px",paddingLeft:"80px"}}>
                         <div class="underline" style={{ marginBottom: "20px"}}>
                             <center><h5 style={{padding:"20px", color:"black"}}>Get In Touch</h5></center>
                         </div>
@@ -159,7 +159,7 @@ export function HomePage(){
                                     </div>
                                 </div>
                                 <div className='col-md-3'>
-                                    <div className='container'>
+                                    <div className='container' style={{marginBottom:"80px"}}>
                                         <ul >
                                             <li>
                                                 <h6 style={{paddingBottom:"15px"}}>Location</h6>
